@@ -40,7 +40,7 @@ function Slider() {
     const NextSlide = LastSlideImage ? 0 : index + 1
     setIndex(NextSlide)
   }
-  setTimeout(Next, 6500)
+  setTimeout(Next, 4500)
 
   return (
     <Container
