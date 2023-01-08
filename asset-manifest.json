@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/wtam/static/js/main.2fc4504a.js",
+    "static/media/bresil2.jpg": "/wtam/static/media/bresil2.e0475b26c50061554d5d.jpg",
+    "static/media/insta.png": "/wtam/static/media/insta.e291349581f33a4f4b3e.png",
+    "static/media/November_Night.ttf": "/wtam/static/media/November_Night.6219a71d8ee60245b4bb.ttf",
+    "static/media/angkor.jpeg": "/wtam/static/media/angkor.6ed68e8790356f5e7e64.jpeg",
+    "static/media/moi2.png": "/wtam/static/media/moi2.e9ea62dd674a0395f6b6.png",
+    "static/media/montagne.jpg": "/wtam/static/media/montagne.d9728fd1e7e324bade0d.jpg",
+    "static/media/machu.jpg": "/wtam/static/media/machu.5c9b0ddb8867a546cd05.jpg",
+    "static/media/asie.png": "/wtam/static/media/asie.98c182676e7fe0bf4c84.png",
+    "static/media/amerique.png": "/wtam/static/media/amerique.b2c8b71d40ad57e4f680.png",
+    "static/media/linkedin.png": "/wtam/static/media/linkedin.9eaa96f73a0b53a2eace.png",
+    "static/media/elle.png": "/wtam/static/media/elle.7b25028615ecc625129a.png",
+    "static/media/mail.png": "/wtam/static/media/mail.5aba11b402fbdb548567.png",
+    "index.html": "/wtam/index.html",
+    "main.2fc4504a.js.map": "/wtam/static/js/main.2fc4504a.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.2fc4504a.js"
+  ]
+}
