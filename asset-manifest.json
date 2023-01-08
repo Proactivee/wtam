@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/wtam/static/js/main.2fc4504a.js",
+    "main.js": "/wtam/static/js/main.25c2980e.js",
     "static/media/bresil2.jpg": "/wtam/static/media/bresil2.e0475b26c50061554d5d.jpg",
     "static/media/insta.png": "/wtam/static/media/insta.e291349581f33a4f4b3e.png",
     "static/media/November_Night.ttf": "/wtam/static/media/November_Night.6219a71d8ee60245b4bb.ttf",
@@ -14,9 +14,9 @@
     "static/media/elle.png": "/wtam/static/media/elle.7b25028615ecc625129a.png",
     "static/media/mail.png": "/wtam/static/media/mail.5aba11b402fbdb548567.png",
     "index.html": "/wtam/index.html",
-    "main.2fc4504a.js.map": "/wtam/static/js/main.2fc4504a.js.map"
+    "main.25c2980e.js.map": "/wtam/static/js/main.25c2980e.js.map"
   },
   "entrypoints": [
-    "static/js/main.2fc4504a.js"
+    "static/js/main.25c2980e.js"
   ]
 }
