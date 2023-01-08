@@ -41,7 +41,6 @@ const Cink = styled(Link)`
   @media (max-width: 768px) {
     padding-right: 8px;
     font-size: 14px;
-    padding-top: 15px;
   }
 `
 

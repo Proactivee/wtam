@@ -18,6 +18,9 @@ const Contain = styled.div`
 
 const Logo = styled.img`
   object-fit: contain;
+  @media (max-width: 768px) {
+    width: 60px;
+  }
 `
 
 function Header() {
