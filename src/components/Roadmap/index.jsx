@@ -26,14 +26,14 @@ const Btn = styled.button`
 const Sur = styled.img`
   height: 800px;
   @media (max-width: 768px) {
-    width: 370px;
+    width: 355px;
   }
 `
 const Asia = styled.img`
   height: 800px;
   border-radius: 25px;
   @media (max-width: 768px) {
-    width: 370px;
+    width: 355px;
   }
 `
 function Roadmap() {

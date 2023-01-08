@@ -39,8 +39,9 @@ const Cink = styled(Link)`
   font-family: 'November', sans-serif;
   font-size: 20px;
   @media (max-width: 768px) {
-    padding-right: 15px;
-    font-size: 15px;
+    padding-right: 8px;
+    font-size: 14px;
+    padding-top: 15px;
   }
 `
 

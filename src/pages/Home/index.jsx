@@ -14,10 +14,16 @@ const Contain = styled.div`
 const Presentation = styled.div`
   display: flex;
   margin: 20px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `
 const PresentationBis = styled.div`
   display: flex;
   flex-direction: row-reverse;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `
 const Photo = styled.img`
   border-radius: 50%;
@@ -30,6 +36,9 @@ const Text = styled.p`
   padding-top: 30px;
   line-height: 30px;
   margin: 20px;
+  @media (max-width: 768px) {
+    font-size: 15px;
+  }
 `
 const TextB = styled.p`
   color: white;
@@ -39,12 +48,22 @@ const TextB = styled.p`
   text-align: right;
   padding-top: 30px;
   line-height: 30px;
+  @media (max-width: 768px) {
+    font-size: 15px;
+  }
 `
-const Pres = styled.div``
+const Pres = styled.div`
+  @media (max-width: 768px) {
+    display: flex;
+  }
+`
 const Name = styled.h3`
   color: white;
   text-align: center;
   font-size: 22px;
+  @media (max-width: 768px) {
+    padding-top: 30px;
+  }
 `
 
 const Titre = styled.h2`
