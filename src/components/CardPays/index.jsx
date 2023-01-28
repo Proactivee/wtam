@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import {Link} from 'react-router-dom'
 
 import rio from '../../assets/Card/bresil2.jpg'
 import chiligrey from '../../assets/Card/chiligrey.png'
@@ -41,7 +42,8 @@ const Pays = styled.div`
     font-size: 50px;
   }
 `
-const Pays1 = styled.div`
+const Pays1 = styled(Link)`
+  text-decoration:none;
   background-color: #9e2c2c;
   padding-top: 50px;
   width: 400px;
@@ -60,9 +62,7 @@ const Pays1 = styled.div`
 `
 
 function CardPays() {
-  const bresil = () => {
-    window.location = '/wtam/bresil'
-  }
+  
   return (
     <Container>
       <World>WORLD TOUR EXPERIENCE</World>
@@ -73,7 +73,7 @@ function CardPays() {
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
           }}
-          onClick={bresil}
+          to={'/wtam/bresil'}
         >
           Brésil
         </Pays1>

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 const Container = styled.div`
   border-radius: 15px;
@@ -7,7 +8,13 @@ const Container = styled.div`
   flex-wrap: wrap;
   margin-bottom: 30px;
 `
-const Town = styled.h3`
+const Town = styled(Link)`
+  text-decoration:none;
+  font-family:'November',sans-serif;
+  font-size:30px;
+  @media (max-width: 768px) {
+    font-size:20px;
+  }
   color: black;
   background: linear-gradient(
     156deg,
@@ -20,15 +27,13 @@ const Town = styled.h3`
   cursor: pointer;
 `
 function Cities() {
-  const sao = () => {
-    window.location = '/wtam/bresil/'
-  }
+ 
   //const Ilha = () => {
   // window.location = '/wtam/bresil/Ilha'
   // }
   return (
     <Container>
-      <Town onClick={sao}>São Paulo</Town>
+      <Town to={'/wtam/bresil'}>São Paulo</Town>
     </Container>
   )
 }
