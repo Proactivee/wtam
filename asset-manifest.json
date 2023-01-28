@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.js": "/wtam/static/js/main.61891edc.js",
+    "static/media/camgrey.png": "/wtam/static/media/camgrey.549f501ff7dbbfe6371e.png",
+    "static/media/bresil2.jpg": "/wtam/static/media/bresil2.60ce3245139365c78b14.jpg",
+    "static/media/boliviegrey.png": "/wtam/static/media/boliviegrey.302c7afa934015bc825f.png",
+    "static/media/laosgrey.png": "/wtam/static/media/laosgrey.7c23673c844af3cd7cd0.png",
+    "static/media/insta.png": "/wtam/static/media/insta.e291349581f33a4f4b3e.png",
+    "static/media/November_Night.ttf": "/wtam/static/media/November_Night.6219a71d8ee60245b4bb.ttf",
+    "static/media/5.jpg": "/wtam/static/media/5.6e4bfa23c19117955d4a.jpg",
+    "static/media/moi2.png": "/wtam/static/media/moi2.e9ea62dd674a0395f6b6.png",
+    "static/media/chiligrey.png": "/wtam/static/media/chiligrey.fae617b6b03f51e61caa.png",
+    "static/media/1.jpg": "/wtam/static/media/1.ada70d4e357de52d1570.jpg",
+    "static/media/angkor.jpg": "/wtam/static/media/angkor.6d910477ecd73d0eb89a.jpg",
+    "static/media/6.jpg": "/wtam/static/media/6.781f5149d1b5973cb76c.jpg",
+    "static/media/3.jpg": "/wtam/static/media/3.1a54f6a4d80ccb1deb4b.jpg",
+    "static/media/4.jpg": "/wtam/static/media/4.f665d59fdf8f48adb8dc.jpg",
+    "static/media/2.jpg": "/wtam/static/media/2.6e86d58338a9c820a123.jpg",
+    "static/media/7.jpg": "/wtam/static/media/7.a057fe7e1422cb11a04b.jpg",
+    "static/media/8.jpg": "/wtam/static/media/8.29ca59d2ae3d859041a5.jpg",
+    "static/media/vietnamgrey.png": "/wtam/static/media/vietnamgrey.dc0c175f565d4b3114c8.png",
+    "static/media/amerique.png": "/wtam/static/media/amerique.47b2e5ca2e2aeff9ea1a.png",
+    "static/media/asie.png": "/wtam/static/media/asie.6166f845f9343fb96079.png",
+    "static/media/sac2.jpg": "/wtam/static/media/sac2.9b221ad3048b2ea279c0.jpg",
+    "static/media/chili2.jpg": "/wtam/static/media/chili2.4795382690af04105795.jpg",
+    "static/media/linkedin.png": "/wtam/static/media/linkedin.9eaa96f73a0b53a2eace.png",
+    "static/media/elle.png": "/wtam/static/media/elle.7b25028615ecc625129a.png",
+    "static/media/mail.png": "/wtam/static/media/mail.5aba11b402fbdb548567.png",
+    "index.html": "/wtam/index.html",
+    "main.61891edc.js.map": "/wtam/static/js/main.61891edc.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.61891edc.js"
+  ]
+}
