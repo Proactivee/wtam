@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Slider from '../../components/CardPays'
+import CardPays from '../../components/CardPays'
 import moi from '../../assets/moi2.png'
 import elle from '../../assets/elle.png'
 import bag from '../../assets/sac2.jpg'
@@ -80,7 +80,7 @@ function Home() {
   }
   return (
     <Container>
-      <Slider />
+      <CardPays />
       <Contain>
         <Titre id="qsn" href="#qsn">
           Qui Sommes Nous

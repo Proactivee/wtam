@@ -32,6 +32,7 @@ const Text = styled.p`
 const pictures = [un, deux,trois,quatre,cinq,six,sept,huit]
 
 function Bresil() {
+  
   return (
     <Container>
       <h1>Brésil</h1>

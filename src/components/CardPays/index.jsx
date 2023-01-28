@@ -59,9 +59,9 @@ const Pays1 = styled.div`
   }
 `
 
-function Slider() {
+function CardPays() {
   const bresil = () => {
-    window.location = 'wtam/bresil'
+    window.location = '/bresil/'
   }
   return (
     <Container>
@@ -127,4 +127,4 @@ function Slider() {
   )
 }
 
-export default Slider
+export default CardPays
