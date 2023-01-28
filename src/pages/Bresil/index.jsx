@@ -20,14 +20,14 @@ const Contain = styled.div`
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
 `
-const Titre = styled.h2`
+/*const Titre = styled.h2`
   font-size: 40px;
   text-align: center;
   margin: 50px;
 `
 const Text = styled.p`
   text-align: center;
-`
+`*/
 
 const pictures = [un, deux,trois,quatre,cinq,six,sept,huit]
 
