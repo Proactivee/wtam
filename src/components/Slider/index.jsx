@@ -1,71 +1,108 @@
-import styled from 'styled-components'
-import brs from '../../assets/Slider/bresil2.jpg'
-import montagne from '../../assets/Slider/montagne.jpg'
-import angkor from '../../assets/Slider/angkor.jpeg'
-import machu from '../../assets/Slider/machu.jpg'
 import { useState } from 'react'
+import styled from 'styled-components'
+import RightArrow from '../../assets/rightArrow.png'
+import LeftArrow from '../../assets/leftArrow.png'
+import SmallArrowLeft from '../../assets/SmallArrowLeft.png'
+import SmallArrowRight from '../../assets/SmallArrowRight.png'
 
-const Container = styled.div`
-  border-radius: 15px;
-  transition: 2s;
-  left: 0;
-`
-
-const Center = styled.div`
-  display: flex;
-  justify-content: center;
-`
-const Iframe = styled.iframe`
-  border: 0px;
+const LeftArrows = styled.img`
+  object-fit: none;
+  cursor: pointer;
+  position: relative;
+  padding-left: 10px;
   @media (max-width: 768px) {
     display: none;
   }
 `
 
-const World = styled.h2`
-  padding-top: 150px;
+const RightArrows = styled.img`
+  object-fit: none;
+  cursor: pointer;
+  position: relative;
+  padding-right: 10px;
+  @media (max-width: 768px) {
+    display: none;
+  }
 `
-const Tour = styled.h2``
-
-const Exp = styled.h2`
-  padding-bottom: 220px;
+const SmallArrowLef = styled.img`
+  display: none;
+  @media (max-width: 768px) {
+    display: flex;
+    object-fit: none;
+    cursor: pointer;
+    width: 50px;
+  }
 `
-const slide = [brs, montagne, angkor, machu]
+const SmallArrowRigh = styled.img`
+  display: none;
+  @media (max-width: 768px) {
+    display: flex;
+    object-fit: none;
+    cursor: pointer;
+    width: 50px;
+  }
+`
 
-function Slider() {
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`
+const SlideContainer = styled.div`
+  background-size: cover;
+  background-position: center;
+  width: 90%;
+  border-radius: 25px;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 768px) {
+    height: 255px;
+  }
+`
+
+function ImageSlide({ pictures }) {
   const [index, setIndex] = useState(0)
 
+  const Previous = () => {
+    const FirstSlideImage = index === 0
+    const PreviousSlide = FirstSlideImage ? pictures.length - 1 : index - 1
+    setIndex(PreviousSlide)
+  }
+
   const Next = () => {
-    const LastSlideImage = index === slide.length - 1
+    const LastSlideImage = index === pictures.length - 1
     const NextSlide = LastSlideImage ? 0 : index + 1
     setIndex(NextSlide)
   }
-  setTimeout(Next, 3000)
 
-  return (
-    <Container
-      style={{
-        backgroundImage: `url(${slide[index]})`,
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover',
-      }}
-    >
-      <Center>
-        <Iframe
-          src="https://free.timeanddate.com/countdown/i8mswkgy/n195/cf12/cm0/cu4/ct4/cs1/cac000/co0/cr0/ss0/cacfff/cpc000/pct/tcfff/fs100/szw1500/szh632/iso2023-01-24T00:00:00"
-          allowtransparency="true"
-          frameborder="0"
-          width="511"
-          height="136"
-        ></Iframe>
-      </Center>
-      <div>
-        <World>WORLD</World>
-        <Tour>TOUR</Tour>
-        <Exp>EXPERIENCE</Exp>
-      </div>
+  const OnePicture = pictures.length === 1
+
+  return OnePicture ? (
+    <Container>
+      <SlideContainer
+        style={{ backgroundImage: `url(${pictures[index]})` }}
+      ></SlideContainer>
+    </Container>
+  ) : (
+    <Container>
+      <SlideContainer style={{ backgroundImage: `url(${pictures[index]})` }}>
+        <LeftArrows src={LeftArrow} alt="left-arrow" onClick={Previous} />
+        <SmallArrowLef
+          src={SmallArrowLeft}
+          alt="Arrow-Left"
+          onClick={Previous}
+        />
+        <RightArrows src={RightArrow} alt="Right-arrow" onClick={Next} />
+        <SmallArrowRigh
+          src={SmallArrowRight}
+          alt="Arrow-right"
+          onClick={Next}
+        />
+      </SlideContainer>
     </Container>
   )
 }
 
-export default Slider
+export default ImageSlide

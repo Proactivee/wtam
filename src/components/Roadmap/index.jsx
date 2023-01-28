@@ -14,17 +14,10 @@ const Contain = styled.div`
   align-items: center;
 `
 
-const Btn = styled.button`
-  background-color: white;
-  border-radius: 50%;
-  width: 180px;
-  padding: 20px;
-  font-family: 'November', sans-serif;
-  font-size: 25px;
-  text-align: center;
-`
 const Sur = styled.img`
   height: 800px;
+  margin-top: 20px;
+  border-radius: 25px;
   @media (max-width: 768px) {
     width: 355px;
   }
@@ -32,6 +25,7 @@ const Sur = styled.img`
 const Asia = styled.img`
   height: 800px;
   border-radius: 25px;
+  margin-top: 20px;
   @media (max-width: 768px) {
     width: 355px;
   }
@@ -40,11 +34,9 @@ function Roadmap() {
   return (
     <Container>
       <Contain>
-        <Btn>Amérique du Sud</Btn>
         <Sur src={amerique} alt="amérique" />
       </Contain>
       <Contain>
-        <Btn>Asie</Btn>
         <Asia src={asie} alt="asie" />
       </Contain>
     </Container>

@@ -35,7 +35,7 @@ const Logo = styled.img`
 `
 function Footer() {
   return (
-    <Container>
+    <Container id="footer" href="#footer">
       <Contain>
         <React>Made with</React>
         <LogReact src={LogoR} alt="logo-React" />

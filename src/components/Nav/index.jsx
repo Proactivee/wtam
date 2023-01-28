@@ -48,13 +48,13 @@ function Toolsbar() {
   const [menuOpen, setMenuOpen] = useState(true)
 
   const ONclick = () => {
-    window.location.href = '#qsn'
+    window.location = '/wtam'
   }
   const RoadClick = () => {
-    window.location.href = '#rdp'
+    window.location.href = '/wtam/bresil'
   }
   const Follow = () => {
-    window.location.href = '#contact'
+    window.location = '#footer'
   }
 
   return menuOpen ? (
@@ -75,8 +75,8 @@ function Toolsbar() {
         />
       </Icon>
       <Contain>
-        <Cink onClick={ONclick}>Qui Sommes Nous</Cink>
-        <Cink onClick={RoadClick}>Roadmap</Cink>
+        <Cink onClick={ONclick}>W.T.AM</Cink>
+        <Cink onClick={RoadClick}>Brésil</Cink>
         <Cink onClick={Follow}> Suivez-Nous</Cink>
       </Contain>
     </Container>
