@@ -1,8 +1,8 @@
 import styled from 'styled-components'
-import angkor from '../../../assets/Card/angkor.jpg'
-import chili from '../../../assets/Card/chili2.jpg'
-import ImageSlide from '../../../components/Slider'
-import Cities from '../../../components/Cities/Bresil'
+import angkor from '../../assets/Card/angkor.jpg'
+import chili from '../../assets/Card/chili2.jpg'
+import ImageSlide from '../../components/Slider'
+import Cities from '../../components/Cities/Bresil'
 
 const Container = styled.div``
 const Contain = styled.div`
