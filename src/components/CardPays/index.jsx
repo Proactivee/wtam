@@ -61,7 +61,7 @@ const Pays1 = styled.div`
 
 function CardPays() {
   const bresil = () => {
-    window.location = '/bresil/'
+    window.location = '/wtam/bresil/'
   }
   return (
     <Container>
