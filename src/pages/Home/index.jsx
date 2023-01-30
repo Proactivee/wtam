@@ -125,7 +125,7 @@ function Home() {
           <Text>
              Pour nous accompagner dans ce voyage, nos plus fidèles compagnons sont les DEUTER AirContactLite de 50L, environ 10kg sur le dos. 
              Ils nous permettent d'organiser nos affaires facilement tout en restant confortable.<br/>
-             Nous sommes paré pour la montagne avec des affaires techniques : pull merinos, pantalon randonné, gourde...; mais également pour aller flaner dans les rues, jusqu'au bout de la nuit si le cœur nous en dit.
+             Nous sommes parés pour la montagne avec des affaires techniques : pull merinos, pantalon randonnée, gourde...; mais également pour aller flaner dans les rues, jusqu'au bout de la nuit si le cœur nous en dit.
              <h4>Nos Plus Belles Trouvailles :</h4>
              - Veste Imperméable de Randonnée Montagne, MH500, Femme, Quechua  (légère,imperméable,coupe vent)<br/>
              - Sac à dos Pliable et Imperméable 20L , Forclaz  (léger,compact, confortable)<br/>
@@ -138,7 +138,7 @@ function Home() {
             <Name>Nos Vols</Name>
           </Pres>
           <TextB>
-             Nous sommes passé par Zip-World, une agence de voyage française, qui nous a accompagner dans notre projet.<br/>
+             Nous sommes passés par Zip-World, une agence de voyage française, qui nous a accompagnés dans notre projet.<br/>
              Bon relationnel, conseil de qualité et s'adapte aux budgets.<br/>
              Merci à eux 😉
              <Zip onClick={zipWorld}>Zip-World</Zip> 
