@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import insta from '../../assets/insta.png'
+import insta from '../../assets/insta.webp'
 import mail from '../../assets/mail.png'
 import LinkedIn from '../../assets/linkedin.png'
 

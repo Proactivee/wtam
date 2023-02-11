@@ -38,6 +38,12 @@ const Photo2 = styled.img`
   margin: 20px 20px 0px;
   
 `
+const Photo3 = styled.img`
+  border-radius: 50%;
+  width: 150px;
+  height:150px;
+  margin: 20px 20px 0px;
+`
 const Text = styled.p`
   color: white;
   padding-top: 30px;
@@ -87,7 +93,7 @@ function Home() {
         </Titre>
         <Presentation>
           <Pres>
-            <Photo src={moi} alt="visage" />
+            <Photo3 src={moi} alt="visage" />
             <Name>ARNAUD</Name>
           </Pres>
           <Text>

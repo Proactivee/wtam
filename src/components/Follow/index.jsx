@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import insta from '../../assets/insta.png'
+import insta from '../../assets/insta.webp'
 
 const Container = styled.div`
   display: flex;

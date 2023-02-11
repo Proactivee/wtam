@@ -50,9 +50,7 @@ function Toolsbar() {
   const ONclick = () => {
     window.location = '/wtam'
   }
-  const RoadClick = () => {
-    window.location.href = '/wtam/bresil'
-  }
+ 
   const Follow = () => {
     window.location = '#footer'
   }
@@ -76,7 +74,7 @@ function Toolsbar() {
       </Icon>
       <Contain>
         <Cink onClick={ONclick}>W.T.AM</Cink>
-        <Cink onClick={RoadClick}>Brésil</Cink>
+        <Cink to={'/wtam/bresil'}>Brésil</Cink>
         <Cink onClick={Follow}> Suivez-Nous</Cink>
       </Contain>
     </Container>

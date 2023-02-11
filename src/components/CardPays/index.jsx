@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 import rio from '../../assets/Card/bresil2.jpg'
 import chiligrey from '../../assets/Card/chiligrey.png'
-import boliviegrey from '../../assets/Card/boliviegrey.png'
+import boliviegrey from '../../assets/Card/boliviegrey.webp'
 import vietnamgrey from '../../assets/Card/vietnamgrey.png'
 import laosgrey from '../../assets/Card/laosgrey.png'
 import camgrey from '../../assets/Card/camgrey.png'

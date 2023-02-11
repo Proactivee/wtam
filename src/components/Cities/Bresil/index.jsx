@@ -33,7 +33,7 @@ function Cities() {
   // }
   return (
     <Container>
-      <Town to={'/wtam/bresil'}>São Paulo</Town>
+      <Town to={'/wtam/bresil/saopolo'}>São Paulo</Town>
     </Container>
   )
 }
