@@ -87,7 +87,7 @@ function Saopolo() {
 
       <Contain>
         <Intro>Sao Paulo se localise dans le Sud du pays, environ à une heure de l'océan Atlantique, à 800 mètres d'altitude. Cette ville est peuplée d'environ 11,9 millions d'habitants pour une superficie de 1521 km2. Cette grande ville est multiculturelle, nous retrouvons des quartiers dédiés à chaque culture. Sao Paulo a fêté ses 469 ans le 25 janvier 2023.<br/>
-Durant ces 4 jours passés à Sao Paulo, nous avons pu faire de belle visite et quelques rencontres. Cette ville nous a charmés par ses multiples facettes, sa convivialité naturelle, sa diversité culinaires et son esprit de fête. Nous avons apprécié cette première immersion 😀
+Durant ces 4 jours passés à Sao Paulo, nous avons pu faire de belle visite et quelques rencontres. Cette ville nous a charmé par ses multiples facettes, sa convivialité naturelle, sa diversité culinaire et son esprit de fête. Nous avons apprécié cette première immersion 😀
 
 </Intro>
       <ImageSlide pictures={pictures} />
@@ -107,7 +107,7 @@ Durant ces 4 jours passés à Sao Paulo, nous avons pu faire de belle visite et 
 
         Nos recherches sont ciblées sur des chambres d'environ 30€/nuit pour deux. Généralement ce budget nous permet d'avoir une chambre double avec salle de bain privative
         et si possible avec le petit déjeuner.<br/>
-        Sur Sao Paulo, nous avons logé dans deux auberges qui se trouvent chacune dans un des quartiers emblématique de la ville.<br/>
+        Sur Sao Paulo, nous avons logé dans deux auberges qui se trouvent chacune dans un des quartiers emblématiques de la ville.<br/>
 
         Notre premier auberge se situe dans le quartier Liberdade, le quartier Japonais de Sao Paulo.<br/><br/>
 
@@ -122,12 +122,12 @@ Durant ces 4 jours passés à Sao Paulo, nous avons pu faire de belle visite et 
         <Titre id="rst" href="#rst">
           Restaurants
         </Titre>
-        <Para>Sao Paulo offre une palette de saveurs spéctaculaires liées à la diversité culturelle, en passant par des petites faim à des repas raffinées.</Para>
+        <Para>Sao Paulo offre une palette de saveurs spéctaculaires liées à la diversité culturelle, en passant par des petites faims à des repas raffinés.</Para>
         <Para>
           Nous avons donc trouvé notre bonheur sur les étales du marché :<br/>
         
-          - <strong>Pastel</strong> : Pâte fine en forme de demi-lune ou en rectangle frit avec une garniture (sucrée ou salée).<br/>
-          - <strong>Coxinha</strong> : Boulette frit de purée de pommes de terres avec une garniture (le plus souvent au poulet).<br/>
+          - <strong>Pastel</strong> : Pâte fine en forme de demi-lune ou en rectangle, frite avec une garniture (sucrée ou salée).<br/>
+          - <strong>Coxinha</strong> : Boulette frite de purée de pommes de terres avec une garniture (le plus souvent au poulet).<br/>
           - <strong>Pao de queijo</strong> : Pain de fromage.<br/>
           - <strong>Tapioca</strong> : Galette de manioc permettant de faire une tortilla avec garniture (sucrée ou salée).<br/>
           - <strong>Hamburger</strong> : "Pain" fourré avec garniture au choix cuit au four.<br/>
@@ -137,7 +137,7 @@ Durant ces 4 jours passés à Sao Paulo, nous avons pu faire de belle visite et 
 
 - <strong>Sushi Yassuh</strong>, Liberdade, prix moyen à chic, ambiance japonaise avec une cuisine ouverte sur la salle, personnel de qualité.<br/>
 
-- <strong>BBJ Restaurante e Lanchonete</strong>, Liberdade, petit prix à moyen, cuisine brésilienne, un restaurant de quartier où se retrouve les habitants du quartier.<br/>
+- <strong>BBJ Restaurante e Lanchonete</strong>, Liberdade, petit prix à moyen, cuisine brésilienne, un restaurant de quartier où se retrouvent les habitants du quartier.<br/>
 
 - <strong>Baiao Cozinha Nordestina</strong>, Vila Madalena, petit prix à moyen, cuisine du Nord du Brésil, immersion musicale et dress-code traditionnel des serveurs. <br/>
 
@@ -159,15 +159,15 @@ Durant ces 4 jours passés à Sao Paulo, nous avons pu faire de belle visite et 
 
 - <strong>Quartier Liberdade</strong>, quartier Japonais : Nombreux petits marchés et squares, authentique.<br/>
 
-- <strong>Jardim botânico</strong> : Parc payant, au calme de la ville environnante, nous avons la matinée à contempler les palmiers empereurs ornant les allées, 
-des vestiges d'anciennes rechercher scientifiques sur la faune et la flore. Nous avons également pu voir des singes lors de cette visite.<br/>
+- <strong>Jardim botânico</strong> : Parc payant, au calme de la ville environnante, nous avons passé la matinée à contempler les palmiers empereurs ornant les allées, 
+des vestiges d'anciennes recherches scientifiques sur la faune et la flore. Nous avons également pu voir des singes lors de cette visite.<br/>
 
-- <strong>Parque Ibirapuera</strong> : Très grand parc permettant de contenter les sportifs en offrant des pistes cyclables, mais laisse la possibilité de visité un planétarium, 
-un sanctuaire Japonais... Nous avons aimé nous arrêter boire une noix de coco avec vu sur la ville.<br/>
+- <strong>Parque Ibirapuera</strong> : Très grand parc permettant de contenter les sportifs en offrant des pistes cyclables, mais laisse la possibilité de visiter un planétarium, 
+un sanctuaire Japonais... Nous avons aimé nous arrêter boire une noix de coco avec vue sur la ville.<br/>
 
 - <strong>Beco do Batman</strong> : Ces ruelles colorées par les graffs, galerie d'art, tatoueurs, ... le temps s'arrête pour laisser place à une atmosphère dynamique et envoûtante.<br/>
 
-- <strong>Quartier Jardim</strong> : Balade arborée et fleuri à travers un quartier résidentiel aisé.<br/>
+- <strong>Quartier Jardim</strong> : Balade arborée et fleurie à travers un quartier résidentiel aisé.<br/>
 
 - <strong>Avenue Paulista</strong> : Quartier des affaires ainsi que de nombreuses boutiques font vibrer cette avenue.<br/>
 
@@ -178,14 +178,14 @@ un sanctuaire Japonais... Nous avons aimé nous arrêter boire une noix de coco 
         </Titre>
         <Para>
           
-Bien que Sao Paulo soit une grande ville, nous nous sommes beaucoup déplacé à pied malgré le relief de la ville.
-Pour les visites les plus lointaines, nous avons expérimentés les trajets en bus et en métro. Uber reste un bon moyen de déplacement.<br/>
+Bien que Sao Paulo soit une grande ville, nous nous sommes beaucoup déplacés à pied malgré le relief de la ville.
+Pour les visites les plus lointaines, nous avons expérimenté les trajets en bus et en métro. Uber reste un bon moyen de déplacement.<br/>
 
 - <strong>Bus</strong> : Difficile d'avoir les horaires, mais passage fréquent, économique (1€/ticket), bien penser à demander l'arrêt.<br/>
 
-- <strong>Métro</strong> : Ramifié, indiqué et sûre, le métro reste la meilleure option pour traverser la ville, prix (2€/ticket).<br/>
+- <strong>Métro</strong> : Ramifié, indiqué et sûr, le métro reste la meilleure option pour traverser la ville, prix (2€/ticket).<br/>
 
-- <strong>Départ/Arrivé</strong> : A Sao Paulo il y plusieurs aéroports, mais il est possible d'aller au terminal pour se déplacer en car à travers tout le brésil. <br/>
+- <strong>Départ/Arrivée</strong> : A Sao Paulo il y plusieurs aéroports, mais il est possible d'aller au terminal pour se déplacer en car à travers tout le brésil. <br/>
  
  
 
