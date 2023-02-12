@@ -27,7 +27,6 @@ const Contain = styled.div`
   justify-content: center;
 `
 const Pays = styled.div`
-  background-color: #9e2c2c;
   padding-top: 50px;
   width: 400px;
   height: 400px;
@@ -44,7 +43,6 @@ const Pays = styled.div`
 `
 const Pays1 = styled(Link)`
   text-decoration:none;
-  background-color: #9e2c2c;
   padding-top: 50px;
   width: 400px;
   height: 400px;

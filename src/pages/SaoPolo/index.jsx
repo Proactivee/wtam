@@ -185,7 +185,7 @@ Pour les visites les plus lointaines, nous avons expérimenté les trajets en bu
 
 - <strong>Métro</strong> : Ramifié, indiqué et sûr, le métro reste la meilleure option pour traverser la ville, prix (2€/ticket).<br/>
 
-- <strong>Départ/Arrivée</strong> : A Sao Paulo il y plusieurs aéroports, mais il est possible d'aller au terminal pour se déplacer en car à travers tout le brésil. <br/>
+- <strong>Départ/Arrivée</strong> : A Sao Paulo il y a plusieurs aéroports, mais il est possible d'aller au terminal pour se déplacer en car à travers tout le brésil. <br/>
  
  
 
