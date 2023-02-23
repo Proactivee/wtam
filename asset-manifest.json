@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/wtam/static/js/main.e17b46ff.js",
+    "main.js": "/wtam/static/js/main.ec4ed7b9.js",
     "static/media/12.jpeg": "/wtam/static/media/12.594665acff8cfcd70181.jpeg",
     "static/media/11.jpeg": "/wtam/static/media/11.c65c57f82ebeb8f86644.jpeg",
     "static/media/10.jpeg": "/wtam/static/media/10.0201e2cf9f5205e84586.jpeg",
@@ -40,9 +40,9 @@
     "static/media/elle.png": "/wtam/static/media/elle.7b25028615ecc625129a.png",
     "static/media/mail.png": "/wtam/static/media/mail.5aba11b402fbdb548567.png",
     "index.html": "/wtam/index.html",
-    "main.e17b46ff.js.map": "/wtam/static/js/main.e17b46ff.js.map"
+    "main.ec4ed7b9.js.map": "/wtam/static/js/main.ec4ed7b9.js.map"
   },
   "entrypoints": [
-    "static/js/main.e17b46ff.js"
+    "static/js/main.ec4ed7b9.js"
   ]
 }
