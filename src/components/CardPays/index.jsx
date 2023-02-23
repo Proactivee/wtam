@@ -1,6 +1,5 @@
 import styled from 'styled-components'
-import {Link} from 'react-router-dom'
-
+import { Link } from 'react-router-dom'
 import rio from '../../assets/Card/bresil2.jpg'
 import chiligrey from '../../assets/Card/chiligrey.png'
 import boliviegrey from '../../assets/Card/boliviegrey.webp'
@@ -42,7 +41,7 @@ const Pays = styled.div`
   }
 `
 const Pays1 = styled(Link)`
-  text-decoration:none;
+  text-decoration: none;
   padding-top: 50px;
   width: 400px;
   height: 400px;
@@ -60,7 +59,6 @@ const Pays1 = styled(Link)`
 `
 
 function CardPays() {
-  
   return (
     <Container>
       <World>WORLD TOUR EXPERIENCE</World>
