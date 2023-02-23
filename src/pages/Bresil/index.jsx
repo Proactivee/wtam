@@ -6,7 +6,10 @@ import quatre from '../../assets/Bresil/4.jpg'
 import six from '../../assets/Bresil/6.jpg'
 import sept from '../../assets/Bresil/7.jpg'
 import huit from '../../assets/Bresil/8.jpg'
-
+import neuf from '../../assets/Bresil/9.jpg'
+import a from '../../assets/Bresil/10.jpeg'
+import b from '../../assets/Bresil/11.jpeg'
+import c from '../../assets/Bresil/12.jpeg'
 import { Link } from 'react-router-dom'
 import ImageSlide from '../../components/Slider'
 import Cities from '../../components/Cities/Bresil'
@@ -39,7 +42,7 @@ const Text = styled.p`
   text-align: center;
 `*/
 
-const pictures = [un, deux,trois,quatre,six,sept,huit]
+const pictures = [un, deux,trois,quatre,six,sept,huit,neuf,a,b,c]
 
 function Bresil() {
   
