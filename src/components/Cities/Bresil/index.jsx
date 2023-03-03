@@ -49,7 +49,7 @@ function Cities() {
     <Container>
       <Town to={'/wtam/bresil/saopolo'}>São Paulo</Town>
       <Town to={'/wtam/bresil/paraty'}>Paraty</Town>
-      <Town2 >Ilha Grande</Town2>
+      <Town to={'/wtam/bresil/ilhagrande'}>Ilha Grande</Town>
       <Town2 >Rio de Janeiro</Town2>
     </Container>
   )

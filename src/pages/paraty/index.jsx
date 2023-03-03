@@ -11,11 +11,15 @@ import h from '../../assets/Bresil/paraty/7.jpeg'
 import i from '../../assets/Bresil/paraty/8.jpeg'
 import j from '../../assets/Bresil/paraty/9.jpeg'
 
-
 import ImageSlide from '../../components/Slider'
 import Cities from '../../components/Cities/Bresil'
+import "../../utils/style/Swipe.css"
+
+
 
 const Container = styled.div``
+
+
 const LinkBresil = styled(Link)`
  color:white;
   font-family:'November',sans-serif;
@@ -58,10 +62,12 @@ const Bar = styled.div`
 const Intro = styled.p`
 padding:15px;
 `
+
 const pictures = [a]
-const pictures1=[b,c,d,e,f,g,h,i,j]
+
 
 function Paraty() {
+
   const Rst = () => {
     window.location = '#rst'
   }
@@ -91,6 +97,8 @@ Nous avons apprécié nous promener dans ses ruelles et arpenter
 les différents magasins et restaurants durant ces deux jours.
 </Intro>
       <ImageSlide pictures={pictures} />
+
+
         <Bar>
           <Choix onClick={Hstl}>Logements </Choix>
           <Choix onClick={Rst}>Restaurants </Choix>
@@ -154,7 +162,19 @@ Après-midi plage. Notre plage préférée : Praia do Jabaquara à 15min à pied
         <Titre id="gal" href="#gal">
           Galerie
         </Titre>
-        <ImageSlide pictures={pictures1}/>
+        <swiper-container class='swipe' navigation="true" pagination="true">
+
+        <swiper-slide class='swipeImg'><img src={b} alt='ville' /></swiper-slide>
+        <swiper-slide class='swipeImg'><img src={c} alt='c'/></swiper-slide>
+        <swiper-slide class='swipeImg'><img src={d} alt='d'/></swiper-slide>
+        <swiper-slide class='swipeImg'><img src={e} alt='e'/></swiper-slide>
+        <swiper-slide class='swipeImg'><img src={f} alt='f'/></swiper-slide>
+        <swiper-slide class='swipeImg'><img src={g} alt='g'/></swiper-slide>
+        <swiper-slide class='swipeImg'><img src={h} alt='h'/></swiper-slide>
+        <swiper-slide class='swipeImg'><img src={i} alt='i'/></swiper-slide>
+        <swiper-slide class='swipeImg'><img src={j} alt='j'/></swiper-slide>
+
+        </swiper-container>
         <Text>
          
         </Text>

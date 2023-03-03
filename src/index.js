@@ -6,6 +6,7 @@ import Home from './pages/Home/'
 import Bresil from './pages/Bresil'
 import Paraty from './pages/paraty'
 import Saopolo from './pages/SaoPolo'
+import Ilha from './pages/IlhaGrande'
 import Footer from './components/Footer'
 import GlobalStyle from './utils/style/GlobalStyle'
 import FontStyles from './fonts/FontStyles'
@@ -21,6 +22,7 @@ root.render(
         <Route path="/wtam/bresil" element={<Bresil />}></Route>
         <Route path="/wtam/bresil/saopolo" element={<Saopolo />}></Route>
         <Route path="/wtam/bresil/paraty" element={<Paraty />}></Route>
+        <Route path="/wtam/bresil/ilhagrande" element={<Ilha />}></Route>
       </Routes>
       <Footer />
     </Router>

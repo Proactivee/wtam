@@ -11,8 +11,9 @@ import a from '../../assets/Bresil/10.jpeg'
 import b from '../../assets/Bresil/11.jpeg'
 import c from '../../assets/Bresil/12.jpeg'
 import { Link } from 'react-router-dom'
-import ImageSlide from '../../components/Slider'
 import Cities from '../../components/Cities/Bresil'
+import "../../utils/style/Swipe.css"
+
 
 const Container = styled.div``
 const LinkBresil = styled(Link)`
@@ -42,7 +43,7 @@ const Text = styled.p`
   text-align: center;
 `*/
 
-const pictures = [un, deux,trois,quatre,six,sept,huit,neuf,a,b,c]
+
 
 function Bresil() {
   
@@ -52,7 +53,22 @@ function Bresil() {
       <Cities />
 
       <Contain>
-        <ImageSlide pictures={pictures} />
+      <swiper-container class='swipe' navigation="true" pagination="true">
+
+<swiper-slide class='swipeImg'><img src={un} alt='ville' /></swiper-slide>
+<swiper-slide class='swipeImg'><img src={deux} alt='c'/></swiper-slide>
+<swiper-slide class='swipeImg'><img src={trois} alt='d'/></swiper-slide>
+<swiper-slide class='swipeImg'><img src={quatre} alt='e'/></swiper-slide>
+<swiper-slide class='swipeImg'><img src={six} alt='f'/></swiper-slide>
+<swiper-slide class='swipeImg'><img src={sept} alt='g'/></swiper-slide>
+<swiper-slide class='swipeImg'><img src={huit} alt='h'/></swiper-slide>
+<swiper-slide class='swipeImg'><img src={neuf} alt='i'/></swiper-slide>
+<swiper-slide class='swipeImg'><img src={a} alt='j'/></swiper-slide>
+<swiper-slide class='swipeImg'><img src={b} alt='k'/></swiper-slide>
+<swiper-slide class='swipeImg'><img src={c} alt='l'/></swiper-slide>
+
+
+</swiper-container>
         
       </Contain>
     </Container>

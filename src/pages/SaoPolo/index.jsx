@@ -17,6 +17,7 @@ import n from '../../assets/Bresil/saopaulo/13.jpeg'
 import o from '../../assets/Bresil/saopaulo/14.jpeg'
 import ImageSlide from '../../components/Slider'
 import Cities from '../../components/Cities/Bresil'
+import "../../utils/style/Swipe.css"
 
 const Container = styled.div``
 const LinkBresil = styled(Link)`
@@ -62,7 +63,7 @@ const Intro = styled.p`
   padding: 15px;
 `
 const pictures = [a]
-const pictures1 = [b, c, d, e, f, g, h, i, j, k, l, m, n, o]
+
 
 function Saopolo() {
   const Rst = () => {
@@ -224,7 +225,24 @@ function Saopolo() {
         <Titre id="gal" href="#gal">
           Galerie
         </Titre>
-        <ImageSlide pictures={pictures1} />
+        <swiper-container class='swipe' navigation="true" pagination="true">
+
+        <swiper-slide class='swipeImg'><img src={b} alt='ville' /></swiper-slide>
+        <swiper-slide class='swipeImg'><img src={c} alt='c'/></swiper-slide>
+        <swiper-slide class='swipeImg'><img src={d} alt='d'/></swiper-slide>
+        <swiper-slide class='swipeImg'><img src={e} alt='e'/></swiper-slide>
+        <swiper-slide class='swipeImg'><img src={f} alt='f'/></swiper-slide>
+        <swiper-slide class='swipeImg'><img src={g} alt='g'/></swiper-slide>
+        <swiper-slide class='swipeImg'><img src={h} alt='h'/></swiper-slide>
+        <swiper-slide class='swipeImg'><img src={i} alt='i'/></swiper-slide>
+        <swiper-slide class='swipeImg'><img src={j} alt='j'/></swiper-slide>
+        <swiper-slide class='swipeImg'><img src={k} alt='k'/></swiper-slide>
+        <swiper-slide class='swipeImg'><img src={l} alt='l'/></swiper-slide>
+        <swiper-slide class='swipeImg'><img src={m} alt='m'/></swiper-slide>
+        <swiper-slide class='swipeImg'><img src={n} alt='n'/></swiper-slide>
+        <swiper-slide class='swipeImg'><img src={o} alt='o'/></swiper-slide>
+
+        </swiper-container>
         <Text></Text>
       </Contain>
     </Container>
