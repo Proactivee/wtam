@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.js": "/wtam/static/js/main.ec4ed7b9.js",
+    "main.css": "/wtam/static/css/main.5824d090.css",
+    "main.js": "/wtam/static/js/main.293033e9.js",
     "static/media/12.jpeg": "/wtam/static/media/12.594665acff8cfcd70181.jpeg",
     "static/media/11.jpeg": "/wtam/static/media/11.c65c57f82ebeb8f86644.jpeg",
     "static/media/10.jpeg": "/wtam/static/media/10.0201e2cf9f5205e84586.jpeg",
+    "static/media/f.jpg": "/wtam/static/media/f.fb7403b93f09f138e9a0.jpg",
+    "static/media/h.jpg": "/wtam/static/media/h.ee562526dcab3c9f8da4.jpg",
     "static/media/1.jpeg": "/wtam/static/media/1.103045c116bbd7a6512e.jpeg",
+    "static/media/a.jpg": "/wtam/static/media/a.1dd3467b053025e82121.jpg",
+    "static/media/d.jpg": "/wtam/static/media/d.29454beb25eb04e88471.jpg",
+    "static/media/k.jpg": "/wtam/static/media/k.706ac8276ea26ec035f0.jpg",
     "static/media/9.jpg": "/wtam/static/media/9.08b058daac3f282969dd.jpg",
     "static/media/November_Night.ttf": "/wtam/static/media/November_Night.6219a71d8ee60245b4bb.ttf",
     "static/media/5.jpeg": "/wtam/static/media/5.99d8b3fb10254d15149b.jpeg",
     "static/media/8.jpeg": "/wtam/static/media/8.a7e3283d0561b25f7669.jpeg",
+    "static/media/c.jpg": "/wtam/static/media/c.2e8720036f9df1088fc1.jpg",
     "static/media/2.jpeg": "/wtam/static/media/2.77758531de5277180012.jpeg",
+    "static/media/i.jpg": "/wtam/static/media/i.d6fdfc7e1660f28c36eb.jpg",
+    "static/media/g.jpg": "/wtam/static/media/g.f2c30fe5d0671341bf8d.jpg",
     "static/media/1.jpg": "/wtam/static/media/1.ada70d4e357de52d1570.jpg",
+    "static/media/e.jpg": "/wtam/static/media/e.7c7e90847c55754c040e.jpg",
+    "static/media/j.jpg": "/wtam/static/media/j.451bbbbb5ec5b92b1515.jpg",
     "static/media/4.jpeg": "/wtam/static/media/4.7caf852e011023942142.jpeg",
     "static/media/7.jpeg": "/wtam/static/media/7.c75be9f5b7b0620de561.jpeg",
     "static/media/6.jpg": "/wtam/static/media/6.781f5149d1b5973cb76c.jpg",
@@ -40,9 +51,11 @@
     "static/media/elle.png": "/wtam/static/media/elle.7b25028615ecc625129a.png",
     "static/media/mail.png": "/wtam/static/media/mail.5aba11b402fbdb548567.png",
     "index.html": "/wtam/index.html",
-    "main.ec4ed7b9.js.map": "/wtam/static/js/main.ec4ed7b9.js.map"
+    "main.5824d090.css.map": "/wtam/static/css/main.5824d090.css.map",
+    "main.293033e9.js.map": "/wtam/static/js/main.293033e9.js.map"
   },
   "entrypoints": [
-    "static/js/main.ec4ed7b9.js"
+    "static/css/main.5824d090.css",
+    "static/js/main.293033e9.js"
   ]
 }
