@@ -13,7 +13,7 @@ const Town = styled(Link)`
   font-family:'November',sans-serif;
   font-size:30px;
   @media (max-width: 768px) {
-    font-size:20px;
+    font-size:14px;
   }
   color: black;
   background: linear-gradient(
@@ -33,7 +33,7 @@ const Town2 = styled(Link)`
   font-size:30px;
   margin:10px;
   @media (max-width: 768px) {
-    font-size:20px;
+    font-size:14px;
   }
   color: black;
   background: #deddd7;
